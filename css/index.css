@@ -1,0 +1,130 @@
+@media screen and (max-width: 400px) {
+    header{
+        background-image: url('../images/texnikum3.jpg');
+        width: 100%;
+        min-height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        background-image: url('../images/texnikum3.jpg');
+        width: 100%;
+        min-height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+    }
+}
+
+/* Tablet styles (adjust the max-width as needed) */
+@media screen and (max-width: 768px) {
+    header {
+        background-image: url('../images/texnikum2.jpg');
+        min-height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 868px) {
+    header {
+        background-image: url('../images/texnikum2.jpg');
+        min-height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 968px) {
+    header {
+        background-image: url('../images/texnikum2.jpg');
+        min-height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Large screen styles (adjust the min-width as needed) */
+@media screen and (min-width: 1200px) {
+    header {
+        background-image: url('../images/texnikum2.jpg');
+        min-height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #1A6C7A;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #1f7b8b;
+    border-radius: 15px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-right: 150px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .textshadow{
+    text-shadow: 4px 4px 8px rgb(6, 185, 239)
+  }
