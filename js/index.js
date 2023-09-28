@@ -27,3 +27,19 @@ function myFunction() {
         document.getElementById("month1").textContent = month + '-';
         document.getElementById("year").textContent = year;
         document.getElementById("year1").textContent = year;
+       
+        let playButton = document.getElementById("playButton");
+        let audio = document.getElementById("myAudio");
+
+        // Add a click event listener to the button
+        playButton.addEventListener("click", function() {
+            if (audio.paused) {
+                // If the audio is paused, play it
+                audio.play();
+                // playButton.innerHTML = "Pause Song";
+            } else {
+                // If the audio is playing, pause it
+                audio.pause();
+                // playButton.innerHTML = "Play Song";
+            }
+        });
