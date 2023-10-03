@@ -15,6 +15,8 @@ function myFunction() {
     }
   }
 
+  
+
   const currentDate = new Date();
 
   const day = currentDate.getDate();

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/news.css">
+    <title>Document</title>
+</head>
+<body class="sticky top-0 z-50" >
+        <header class="sticky top-0 z-50" style="background-image: url('https://img.freepik.com/free-vector/blue-hexagonal-medical-healthcare-background_1017-23663.jpg'); background-size: cover;">
+        <div class="container mx-auto">
+            <div class=" w-full h-[70px] md:h-[100px] lg:h-[120px] flex justify-between items-center">
+                <div class="w-1/2 lg:w-1/3 xl:1/3 p-2 flex jusrify-center items-center font-bold text-white">
+                    <img src="../images/logo.png" alt="" class="w-[50px] h-[50px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] rounded-full lg:ml-10">
+                    <div class="text-[8px] md:text-[16px] lg:text-[14px] lg:w-1/2 lg:ml-5">
+                        <h1>KATTAQO'RG'ON ABU ALI IBN SINO NOMIDAGI JAMOAT SALOMATLIK TEXNIKUMI</h1>
+                    </div>
+                </div>                
+                <div class="p-menu1 flex justify-center items-center">
+                    <a href="https://archive.uz/ozbekiston-respublikasi-davlat-gerbi"><img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Emblem_of_Uzbekistan.svg" alt="uzb-gerb" class="w-[50px] lg:w-[70px] xl:w-[70px] hover:bg-blue-300 rounded-full p-2"></a>
+                    <a href="https://archive.uz/ozbekiston-respublikasining-davlat-bayrogi" class="lg:ml-5 xl:ml-5"><img src="../images/free-icon-uzbekistan-630641.png" alt="uzb-flag" class="w-[50px] lg:w-[70px] xl:w-[70px] hover:bg-blue-300 rounded-lg p-2"></a>
+                    <button id="playButton" class="lg:ml-5 xl:ml-5"><img src="https://upload.wikimedia.org/wikipedia/commons/d/df/ITunes_logo.svg" alt="anthem" class="w-[50px] lg:w-[70px] xl:w-[70px] hover:bg-blue-300 rounded-full p-2"></button>
+                    <audio id="myAudio">
+                        <source src="../images/ozbekiston-respublikasi-davlat-madhiyasi-madhiya_(chaqqon.net).mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="dropdowns lg:hidden mr-14 md:mr-10 text-xl mx-auto">
+                      <button class="dropbtns"><i class="fas fa-align-justify text-xl text-yellow-400"></i></button>
+                      <div class="dropdown-contents text-[10px]">
+                        <a class="link1" href="../index.html">Bosh sahifa</a>
+                            <a class="link1" href="">Yo'nalishlar</a>
+                            <a class="link1" href="">Contact</a>
+                      </div>
+                    </div>
+                    <div class="navbar w-[100%] hidden lg:block mr-5 py-1 px-2 lg:w-[100%] xl:w-[100%] ml-5 rounded-xl">
+                        <a href="../index.html">Bosh sahifa</a>
+                        <div class="dropdown">
+                          <button class="dropbtn">Texnikum haqida 
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content">
+                            <a href="#">Biz haqimizda</a>
+                            <a href="#">Rahbariyat</a>
+                            <a href="#">Moddiy texnik baza</a>
+                          </div>
+                        </div> 
+                        <a href="">Yo'nalishlar</a>
+                        <a href="#news">Contact</a>
+                        <a href="#news"><i class="fab fa-telegram text-yellow-400"></i></a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container mx-auto">
+            <div class="exaggerated-text textshadow grid justify-center items-center text-center text-white gap-4 lg:gap-6 mt-14 lg:mt-[100px]">
+                <h1 class="text-3xl md:text-5xl lg:text-5xl font-bold text-blue-400">Yangiliklar</h1>
+            </div>
+            <div class="cards flex flex-wrap justify-center items-center mt-14 gap-6"></div>
+        </div>
+
+    </section>
+    <footer class="bg-[#01012F] text-white mt-10">
+        <div class="container mx-auto flex justify-center  gap-2 md:gap-10">
+            <div class="w-1/2 md:w-1/2 lg:w-1/3 p-5 text-[10px] md:text-[14px] lg:text-[18px] xl:text-[18px] lg:mt-5 xl:mt-5">
+                <h1 class="border-l-[10px] border-teal-200 p-2 mb-2 text-lg md:text-xl font-bold ">Bog'lanish</h1>
+                <i class="fa fa-phone lg:ml-5"></i><span> (+998) 99 310-40-62</span><br>
+                <i class="fas fa-map-marker-alt lg:ml-5"></i><span> Kattaqo‘rg‘on shahar, Umar Xayyom ko‘chasi, 221 uy</span><br>
+                <i class="fa fa-envelope lg:ml-5"></i><span> k.texnikum@mail.ru</span><br>
+                <div class="flex gap-2 mt-2 lg:ml-5">
+                    <a href="#"><i class="fab fa-telegram-plane p-2 hover:bg-teal-500 rounded-lg"></i></a>
+                    <a href="#"><i class="fab fa-instagram p-2 hover:bg-teal-500 rounded-lg"></i></a>
+                    <a href="#"><i class="fab fa-facebook p-2 hover:bg-teal-500 rounded-lg"></i></a>
+                    <a href="#"><i class="fab fa-youtube p-2 hover:bg-teal-500 rounded-lg"></i></a>
+                </div>
+            </div>
+            <div class="w-1/3 md:w-1/2 lg:w-1/3 p-5 lg:mt-5 xl:mt-5 grid lg:mb-14 xl:mb-14 hidden md:block">
+                <h1 class="border-l-[10px] border-teal-200 p-2 mb-2 text-lg md:text-xl font-bold ">Xarita</h1>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12242.240088739507!2d66.2716587!3d39.906482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d8d7400c00b1d%3A0xa314b7a4cfd6c056!2sKattaqo&#39;rg&#39;on%20Abu%20Ali%20ibn%20Sino%20nomidagi%20jamoat%20salomatligi%20texnikumi!5e0!3m2!1sru!2s!4v1695451740169!5m2!1sru!2s" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/news.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
